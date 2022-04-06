@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*- 
-from turtle import left
-from numpy import column_stack
 from selenium import webdriver 
 from bs4 import BeautifulSoup
 import time
@@ -8,12 +6,15 @@ import requests
 import pandas as pd
 from html_table_parser import parser_functions as parser
 
-
+#컬럼 설정
 columns = {
     '매매가':[],'실구매가':[],'위치':[],'공급면적':[],'전용면적':[],'해당동':[],'해당세대수':[],'방/욕실수':[],'해당층/총층':[],'방향':[],'현관/난방':[],'단지규모':[],'총세대수':[],'총동수':[],'교통시설':[],'학교시설':[],'편의시설':[]
     }
 
+# 크롬 드라이버 load
 driver = webdriver.Chrome("/Users/ryuchangmin/Desktop/CP1_project/chromedriver")
+
+#크롤링 할 page 설정
 for page in range(0,391,15):
     url = f"http://www.drapt.com/maemul/index.htm?menu_key=0&ALL=2&page_name=gulist&mcode=38&m_kind=0&m_type=0&view_count=&search_size=&search_price=&start={page}"
 
