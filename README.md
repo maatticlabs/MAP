@@ -1,20 +1,24 @@
-## 🗂 폴더/파일 구분
+poldeo/pail gubun crawling code selenium-eul wihan chromedriver crawling code dataset crawling-eul jinhaenghan deiteo mich jeoncheoli deiteo create_location Naver Map API key balgeubbadgi Naver Map APIleul tonghayeo wido, gyeongdo naelyeobadgi json paillo mandeulgo ihue dataframeeulo mandeulgi dataset silgeolaega wonbon deiteo mich gyeolhab deiteo silgeolaega eda deiteo make_map maebguhyeon
+Show more
+378 / 5,000
+Translation results
+Séparation de dossier/fichier
 
-1. crawling
-    1. code
-        1. selenium을 위한 chromedriver
-        2. crawling code
-    2. dataset
-        1. crawling을 진행한 데이터 및 전처리 데이터
-    
-2. create_location
-    1. Naver Map API key 발급받기
-    2. Naver Map API를 통하여 위도, 경도 내려받기
-    3. json 파일로 만들고 이후에 dataframe으로 만들기
+     rampant
+         code
+             chromedriver pour le sélénium
+             code d'exploration
+         base de données
+             Explorer les données et pré-traiter les données
 
-3. dataset
-    1. 실거래가 원본 데이터 및 결합 데이터
-    2. 실거래가 eda 데이터
-    
-4. make_map
-    1. 맵구현
+     create_location
+         Obtenir la clé API Naver Map émise
+         Télécharger la latitude et la longitude via Naver Map API
+         fichier json et versions ultérieures en tant que dataframe
+
+     base de données
+         Prix ​​de transaction réel données d'origine et données combinées
+         Données eda sur le prix réel de la transaction
+
+     make_map
+         mise en œuvre de la carte
